@@ -21,28 +21,65 @@ body{
   color: black
 }
 
+.discount{
+  color: white;
+  background-color: red;
+  margin-top: 60px;
+}
+
 .size{
-font-size: 12px;
-text-align: left;
+  font-size: 12px;
+  text-align: left;
 }
 
-.product img{
-  max-height: 400px;
-  max-width: 300px;
+.product-levis{
+  width: 300px;
+  height: 500px;
+  margin: 5px;
 }
 
-img{
-  margin: 2px;
+.sconto{
+  position: absolute;
+  top: 450px;
+  left:40px ;
+  background-color: red;
+  color: white;
 }
 
-.product1b{
+.sostenibilità{
+  position: absolute;
+  top: 450px;
+  left: 80px;
+  background-color: green;
+  color: white;
+}
+
+.hearts{
+  padding: 5px;
+  font-size: 30px;
+  position: absolute;
+  left: 310px;
+  top: 20px;
+  background-color: white;
+  width: 40px;
+}
+
+#levis-none{
   display: none;
 }
 
-.product:hover .product1b{
-display: block;
+.product:hover #levis-none{
+  display: block;
+}
+
+.product:hover .product-levis{
+  display: none;
 }
 
 .red-text{
   color: red;
+}
+
+.bold{
+  font-weight: bold;
 }
